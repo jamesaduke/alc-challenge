@@ -1,7 +1,19 @@
 <resources>
     <string name="app_name">ALC Phase 1</string>
     <string name="about_alc">About ALC</string>
-    <string name="profile_title">Profile</string>
+    <string name="profile_title">My Profile</string>
     <string name="welcome_to_alc_4_0">Welcome To ALC 4.0</string>
     <string name="btn_about_alc">ABOUT ALC</string>
+
+    <string name="my_name">James Aduke</string>
+    <string name="country">Kenya</string>
+    <string name="email">adukework@gmail.com</string>
+    <string name="track">Android</string>
+    <string name="phone_number">0771660006</string>
+
+    <string name="label_name">Name</string>
+    <string name="label_country">Country</string>
+    <string name="label_email">Email</string>
+    <string name="label_number">Phone No.</string>
+    <string name="label_track">Android</string>
 </resources>
