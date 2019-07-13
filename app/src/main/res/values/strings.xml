@@ -16,4 +16,5 @@
     <string name="label_email">Email</string>
     <string name="label_number">Phone No.</string>
     <string name="label_track">Android</string>
+    <string name="web">About Andela</string>
 </resources>

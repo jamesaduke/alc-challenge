@@ -21,5 +21,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button webButton = findViewById(R.id.button_web);
+        webButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Web.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
+
 }
