@@ -33,13 +33,13 @@
         app:layout_constraintTop_toBottomOf="@+id/welcome_text" />
 
     <Button
+        android:id="@+id/profile_button"
         android:layout_width="83dp"
         android:layout_height="45dp"
         android:layout_margin="90dp"
         android:layout_marginTop="96dp"
         android:background="@drawable/btn_rounded"
-        android:shadowRadius="5dp"
-        android:text="@string/btn_about_alc"
+        android:text="@string/profile_title"
         app:layout_constraintEnd_toEndOf="@+id/welcome_text"
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="@+id/welcome_text"
