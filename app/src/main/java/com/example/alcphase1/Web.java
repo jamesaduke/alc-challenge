@@ -27,6 +27,13 @@ public class Web extends AppCompatActivity {
 
         webView.setWebViewClient(new WebViewClient(){
             @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+//                return super.shouldOverrideUrlLoading(view, url);
+                view.loadUrl(url);
+                return true;
+            }
+
+            @Override
             public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
 //                super.onReceivedSslError(view, handler, error);
                 handler.proceed();

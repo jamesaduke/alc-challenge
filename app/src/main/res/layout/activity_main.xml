@@ -6,31 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/welcome_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/welcome_to_alc_4_0"
-        android:textColor="#000"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+    <!--<TextView-->
+        <!--android:id="@+id/welcome_text"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/welcome_to_alc_4_0"-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="36sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.493"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.216" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="371dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.216" />
+        app:srcCompat="@drawable/alc_4"
+        android:contentDescription="@string/content_description" />
 
     <Button
         android:id="@+id/button_web"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="116dp"
         android:background="@drawable/btn_rounded"
         android:text="@string/btn_about_alc"
-        app:layout_constraintEnd_toEndOf="@+id/welcome_text"
-        app:layout_constraintStart_toStartOf="@+id/welcome_text"
-        app:layout_constraintTop_toBottomOf="@+id/welcome_text" />
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/profile_button"
@@ -40,10 +53,10 @@
         android:layout_marginTop="96dp"
         android:background="@drawable/btn_rounded"
         android:text="@string/profile_title"
-        app:layout_constraintEnd_toEndOf="@+id/welcome_text"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.49"
-        app:layout_constraintStart_toStartOf="@+id/welcome_text"
-        app:layout_constraintTop_toBottomOf="@+id/welcome_text"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
         />
 
 </android.support.constraint.ConstraintLayout>
